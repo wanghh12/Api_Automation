@@ -1,0 +1,6 @@
+[
+  {"username": "15713944131","pasword": "123457","verify_code" : 8888,"expect": "账号或密码错误"},
+  {"username": "15713944132","pasword": "123456","verify_code" : 8888,"expect": "账号或密码错误"},
+  {"username": "15698017292","pasword": "123456","verify_code" : 8889,"expect": "验证码错误"},
+  {"username": "15713944131","pasword": "123456","verify_code" : 8888,"expect": "登陆成功"}
+]
