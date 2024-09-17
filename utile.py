@@ -3,7 +3,7 @@ import json
 import os
 def readdata(file):
     try:
-        path = os.path.dirname(__file__)+"\data\\"+file
+        path = os.path.dirname(__file__)+"/data/"+file
         read_data=[]
         with open(path, mode="r", encoding="utf-8") as f:
             for data in json.load(f):

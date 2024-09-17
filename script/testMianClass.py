@@ -21,7 +21,7 @@ class TestMianClass:
         data = {"username":username,"password":password,"verify_code":verify_code}
         # print(data)
         res =self.testmian.log01(data=data)
-        assert excepts == res.json().get("msg")
+        assert  res.json().get("msg") == excepts
         # print(res.json())
 
     def test_jiagou(self):
